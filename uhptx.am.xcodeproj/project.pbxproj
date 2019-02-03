@@ -30,6 +30,7 @@
 		484607E51FA0E82100BB910C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		849ADC8D22079A7300DE9125 /* Ultrahaptics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Ultrahaptics.framework; path = "c74support/uhptx-includes/Libraries/CPlusPlus/Ultrahaptics.framework"; sourceTree = "<group>"; };
 		84D86D3622079F7B00355603 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		84D86D372207A0DB00355603 /* uhptx.am.maxhelp */ = {isa = PBXFileReference; lastKnownFileType = text; name = uhptx.am.maxhelp; path = externals/uhptx.am.maxhelp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +53,7 @@
 				484607E51FA0E82100BB910C /* README.md */,
 				84D86D3622079F7B00355603 /* .gitignore */,
 				19C28FB4FE9D528D11CA2CBB /* Products */,
+				84D86D372207A0DB00355603 /* uhptx.am.maxhelp */,
 				487648841F85695100121D48 /* Frameworks */,
 			);
 			name = iterator;
