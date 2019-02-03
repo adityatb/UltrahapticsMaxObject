@@ -1,5 +1,0 @@
-var searchData=
-[
-  ['ultrahapticslibrary',['UltrahapticsLibrary',['../class_ultrahaptics_1_1_ultrahaptics_library.html#a478a9051ee92a26cd23dfbf7914c633b',1,'Ultrahaptics::UltrahapticsLibrary::UltrahapticsLibrary()'],['../class_ultrahaptics_1_1_ultrahaptics_library.html#a082adc351f3e38268d1c9240853c5e3d',1,'Ultrahaptics::UltrahapticsLibrary::UltrahapticsLibrary(UltrahapticsLibrary &amp;&amp;other)'],['../class_ultrahaptics_1_1_ultrahaptics_library.html#a7f1691c18d239fb8f7f555af17a6a9de',1,'Ultrahaptics::UltrahapticsLibrary::UltrahapticsLibrary(const UltrahapticsLibrary &amp;other)=delete']]],
-  ['update',['update',['../class_ultrahaptics_1_1_amplitude_modulation_1_1_emitter.html#ac873b0a6d88b17f6f0c66e54ad503121',1,'Ultrahaptics::AmplitudeModulation::Emitter::update(const ControlPoint *controlpoint, const size_t controlpointcount)'],['../class_ultrahaptics_1_1_amplitude_modulation_1_1_emitter.html#ad2a7dea8eab40b71d22f8f9accdf4feb',1,'Ultrahaptics::AmplitudeModulation::Emitter::update(const ControlPoint &amp;controlpoint, const size_t controlpointcount=1)']]]
-];
