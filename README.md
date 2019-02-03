@@ -4,16 +4,20 @@ Source and Xcode module to build a Max object that implements the Amplitude Modu
 
 
 ## Usage:
-1. Add uhptx.mxo to Max project folder , or add the 'externals' folder to the Max file path.
+1. Add uhptx.mxo from 'externals' folder to Max project folder , or add the 'externals' folder to the Max file path.
 2. Set Max to run in 64-bit mode.
 3. Ensure Ultrahaptics device is plugged in and powered on.
-4. Initialize object in Max using the object name 'uhptx.am'. 
+4. Initialize object in Max using the object name 'uhptx.am'.
 
 
 ## Requirements:
 1. Minimum v2.5 of Ultrahaptics SDK
 2. Max 7, running at 64-bit
 3. Object only has OSX version.
+
+## Building instructions
+1. Place max-includes folder from MAX SDK in c74support/
+2. Place 'Headers' and 'Libraries' folder from Ultrahaptics SDK in c74support/uhptx-includes
 
 ## Release Notes/Version History:
 
