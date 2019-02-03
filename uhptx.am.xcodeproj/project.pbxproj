@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		222B12E90F140BDF008B1A46 /* uhptx.am.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 222B12E80F140BDF008B1A46 /* uhptx.am.cpp */; };
-		844F2B9422079AF700290A1F /* Ultrahaptics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 849ADC8D22079A7300DE9125 /* Ultrahaptics.framework */; };
+		84D86D3A2207A70900355603 /* Ultrahaptics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84D86D382207A70100355603 /* Ultrahaptics.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,9 +28,9 @@
 		22CF10220EE984600054F513 /* maxmspsdk.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = maxmspsdk.xcconfig; sourceTree = SOURCE_ROOT; };
 		2FBBEAE508F335360078DB84 /* uhptx.am.mxo */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = uhptx.am.mxo; sourceTree = BUILT_PRODUCTS_DIR; };
 		484607E51FA0E82100BB910C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		849ADC8D22079A7300DE9125 /* Ultrahaptics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Ultrahaptics.framework; path = "c74support/uhptx-includes/Libraries/CPlusPlus/Ultrahaptics.framework"; sourceTree = "<group>"; };
 		84D86D3622079F7B00355603 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		84D86D372207A0DB00355603 /* uhptx.am.maxhelp */ = {isa = PBXFileReference; lastKnownFileType = text; name = uhptx.am.maxhelp; path = externals/uhptx.am.maxhelp; sourceTree = "<group>"; };
+		84D86D382207A70100355603 /* Ultrahaptics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Ultrahaptics.framework; path = "c74support/uhptx-includes/Libraries/CPlusPlus/Ultrahaptics.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,7 +38,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				844F2B9422079AF700290A1F /* Ultrahaptics.framework in Frameworks */,
+				84D86D3A2207A70900355603 /* Ultrahaptics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,7 +70,7 @@
 		487648841F85695100121D48 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				849ADC8D22079A7300DE9125 /* Ultrahaptics.framework */,
+				84D86D382207A70100355603 /* Ultrahaptics.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -242,11 +242,8 @@
 				DSTROOT = "$(SRCROOT)/externals";
 				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
-					"\"$(C74SUPPORT)/max-includes\"",
-					"\"$(C74SUPPORT)/msp-includes\"",
-					"\"$(C74SUPPORT)/jit-includes\"",
+					"\"$(SRCROOT)/c74support/max-includes\"",
 					"\"$(SRCROOT)/c74support/uhptx-includes/Libraries/CPlusPlus\"",
-					"$(PROJECT_DIR)/c74support/uhptx-includes/Libraries/CPlusPlus",
 				);
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREFIX_HEADER = "$(C74SUPPORT)/max-includes/macho-prefix.pch";
@@ -255,10 +252,8 @@
 					"\"NO_TRANSLATION_SUPPORT = 1\"",
 				);
 				HEADER_SEARCH_PATHS = (
-					"\"$(SRCROOT)/c74support/jit-includes\"",
-					"\"$(SRCROOT)/c74support/max-includes\"",
-					"\"$(SRCROOT)/c74support/msp-includes\"",
 					"\"$(SRCROOT)/c74support/uhptx-includes/Headers\"",
+					"\"$(SRCROOT)/c74support/max-includes\"",
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "~/Library/Frameworks";
@@ -288,11 +283,8 @@
 				DSTROOT = "$(SRCROOT)/externals";
 				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
-					"\"$(C74SUPPORT)/max-includes\"",
-					"\"$(C74SUPPORT)/msp-includes\"",
-					"\"$(C74SUPPORT)/jit-includes\"",
+					"\"$(SRCROOT)/c74support/max-includes\"",
 					"\"$(SRCROOT)/c74support/uhptx-includes/Libraries/CPlusPlus\"",
-					"$(PROJECT_DIR)/c74support/uhptx-includes/Libraries/CPlusPlus",
 				);
 				GCC_PREFIX_HEADER = "$(C74SUPPORT)/max-includes/macho-prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -300,10 +292,8 @@
 					"\"NO_TRANSLATION_SUPPORT = 1\"",
 				);
 				HEADER_SEARCH_PATHS = (
-					"\"$(SRCROOT)/c74support/jit-includes\"",
-					"\"$(SRCROOT)/c74support/max-includes\"",
-					"\"$(SRCROOT)/c74support/msp-includes\"",
 					"\"$(SRCROOT)/c74support/uhptx-includes/Headers\"",
+					"\"$(SRCROOT)/c74support/max-includes\"",
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "~/Library/Frameworks";
