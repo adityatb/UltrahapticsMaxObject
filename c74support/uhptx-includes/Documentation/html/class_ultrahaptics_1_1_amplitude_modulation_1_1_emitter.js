@@ -1,0 +1,26 @@
+var class_ultrahaptics_1_1_amplitude_modulation_1_1_emitter =
+[
+    [ "Emitter", "class_ultrahaptics_1_1_amplitude_modulation_1_1_emitter.html#af1d20673b7d80e36552ef023a2070bf8", null ],
+    [ "Emitter", "class_ultrahaptics_1_1_amplitude_modulation_1_1_emitter.html#aae1e74a9dbb3d95021d39c972c03a2e6", null ],
+    [ "~Emitter", "class_ultrahaptics_1_1_amplitude_modulation_1_1_emitter.html#ac9c6ba77a15abc6ba57738ec1a5e36b2", null ],
+    [ "Emitter", "class_ultrahaptics_1_1_amplitude_modulation_1_1_emitter.html#afb1b49c18ea0cc0a62bd14554bcae47b", null ],
+    [ "arrayDepth", "class_ultrahaptics_1_1_amplitude_modulation_1_1_emitter.html#a9271d6c8350649f6273e10474bf37550", null ],
+    [ "arrayWidth", "class_ultrahaptics_1_1_amplitude_modulation_1_1_emitter.html#add87a40e6cd398e08ec6a6fd0c7a403f", null ],
+    [ "getDeviceInfo", "class_ultrahaptics_1_1_amplitude_modulation_1_1_emitter.html#a2ad604d766ad6831d2f6ab86ebdf8850", null ],
+    [ "getExtendedOption", "class_ultrahaptics_1_1_amplitude_modulation_1_1_emitter.html#a2b60eaab1cb11d36fdcb679abb400e66", null ],
+    [ "getMaximumControlPointLimit", "class_ultrahaptics_1_1_amplitude_modulation_1_1_emitter.html#acbf0ba7b2a35083f9ed6d9102351f4d7", null ],
+    [ "getSampleRate", "class_ultrahaptics_1_1_amplitude_modulation_1_1_emitter.html#a9aded2a8463e1bbabe3eda4fc5331ee3", null ],
+    [ "getSampleRateLimit", "class_ultrahaptics_1_1_amplitude_modulation_1_1_emitter.html#a10a56a7a148fdc980576ebe583c360dd", null ],
+    [ "initialize", "class_ultrahaptics_1_1_amplitude_modulation_1_1_emitter.html#aefef2003d000cb2802f78228e23ef95f", null ],
+    [ "interactionSpaceDepth", "class_ultrahaptics_1_1_amplitude_modulation_1_1_emitter.html#a2565643aca53f86aa5611a09b82f0d45", null ],
+    [ "interactionSpaceHeight", "class_ultrahaptics_1_1_amplitude_modulation_1_1_emitter.html#ac08440b3d68c93fd3b8aea0ef64734d3", null ],
+    [ "interactionSpaceWidth", "class_ultrahaptics_1_1_amplitude_modulation_1_1_emitter.html#a8e7868609c0fc1e5ea2da5a8846aa32f", null ],
+    [ "isConnected", "class_ultrahaptics_1_1_amplitude_modulation_1_1_emitter.html#a4cfd85b4401fc2f68000d66d36133b30", null ],
+    [ "operator=", "class_ultrahaptics_1_1_amplitude_modulation_1_1_emitter.html#aae0521d44e84fc47cf87c7e246e0cb88", null ],
+    [ "reset", "class_ultrahaptics_1_1_amplitude_modulation_1_1_emitter.html#a75d5732aa41c7b92f97f3884af8175af", null ],
+    [ "setExtendedOption", "class_ultrahaptics_1_1_amplitude_modulation_1_1_emitter.html#a6df98699cf3e1dfd486df821686a6283", null ],
+    [ "setSampleRate", "class_ultrahaptics_1_1_amplitude_modulation_1_1_emitter.html#a0d3e2f3eda6600f45604de5aa6679bbb", null ],
+    [ "stop", "class_ultrahaptics_1_1_amplitude_modulation_1_1_emitter.html#a2229e6635884305408a6a119917dd907", null ],
+    [ "update", "class_ultrahaptics_1_1_amplitude_modulation_1_1_emitter.html#ac873b0a6d88b17f6f0c66e54ad503121", null ],
+    [ "update", "class_ultrahaptics_1_1_amplitude_modulation_1_1_emitter.html#ad2a7dea8eab40b71d22f8f9accdf4feb", null ]
+];
