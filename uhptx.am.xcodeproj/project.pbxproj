@@ -28,7 +28,6 @@
 		22CF10220EE984600054F513 /* maxmspsdk.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = maxmspsdk.xcconfig; sourceTree = SOURCE_ROOT; };
 		2FBBEAE508F335360078DB84 /* uhptx.am.mxo */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = uhptx.am.mxo; sourceTree = BUILT_PRODUCTS_DIR; };
 		484607E51FA0E82100BB910C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		84D86D3622079F7B00355603 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		84D86D372207A0DB00355603 /* uhptx.am.maxhelp */ = {isa = PBXFileReference; lastKnownFileType = text; name = uhptx.am.maxhelp; path = externals/uhptx.am.maxhelp; sourceTree = "<group>"; };
 		84D86D382207A70100355603 /* Ultrahaptics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Ultrahaptics.framework; path = "c74support/uhptx-includes/Libraries/CPlusPlus/Ultrahaptics.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -51,7 +50,6 @@
 				22CF10220EE984600054F513 /* maxmspsdk.xcconfig */,
 				222B12E80F140BDF008B1A46 /* uhptx.am.cpp */,
 				484607E51FA0E82100BB910C /* README.md */,
-				84D86D3622079F7B00355603 /* .gitignore */,
 				19C28FB4FE9D528D11CA2CBB /* Products */,
 				84D86D372207A0DB00355603 /* uhptx.am.maxhelp */,
 				487648841F85695100121D48 /* Frameworks */,
