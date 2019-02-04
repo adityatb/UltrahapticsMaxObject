@@ -12,7 +12,7 @@ Source and Xcode module to build a Max object that implements the Amplitude Modu
 
 ## Requirements:
 1. Minimum v2.5 of Ultrahaptics SDK
-2. Max 7, running at 64-bit
+2. Max/MSP, running at 64-bit. Tested on Max 7.
 3. Object only works on OSX version. Tested on OSX 10.13.6.
 
 ## Building instructions
