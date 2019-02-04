@@ -16,6 +16,7 @@ Source and Xcode module to build a Max object that implements the Amplitude Modu
 3. Object only has OSX version.
 
 ## Building instructions
+If choosing to build the xcode project, Max SDK and Ultrahaptics SDK files are not included with this repository. They need to be included into the Framework and Header search paths for Xcode, or copied to the following locations:
 1. Place max-includes folder from MAX SDK in c74support/
 2. Place 'Headers' and 'Libraries' folder from Ultrahaptics SDK in c74support/uhptx-includes
 
