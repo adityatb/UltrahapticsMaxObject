@@ -1,6 +1,6 @@
-#  Ultrahaptics Max Object::Amplitude Modulation
+#  Ultraleap (Ultrahaptics) Max Object::Amplitude Modulation
 
-Max external to use Ultrahaptics in Max/MSP (in Externals folder), along with source and Xcode Project to build the Max object. The object implements the Amplitude Modulation emitter in Cycling '74s Max7 environment. Max help file includes more information on using the external.
+Max external to use Ultraleap in Max/MSP (in Externals folder), along with source and Xcode Project to build the Max object. The object implements the Amplitude Modulation emitter in Cycling '74s Max7 environment. Max help file includes more information on using the external.
 
 
 ## Using the Max External:
